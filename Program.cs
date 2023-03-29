@@ -29,5 +29,8 @@ class Program
             Console.WriteLine(getNextDay()); //вызываем дни недели
             Thread.Sleep(300);
         }
+           Console.ForegroundColor = ConsoleColor.DarkRed;
+           Console.WriteLine("столько дней прошло с момента назначения ответственного задания :р");
+           Console.ForegroundColor = ConsoleColor.White;
     }
 }
