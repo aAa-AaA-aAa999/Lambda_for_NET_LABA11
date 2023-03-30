@@ -23,7 +23,6 @@ class Program
             return daysOfWeek[currentDayIndex]; //возвращаем элемент массива по текущему индексу
         };
 
-        // Вызываем делегат 14 раз (2 недели))))
         for (int i = 0; i < 14; i++)
         {
             Console.WriteLine(getNextDay()); //вызываем дни недели
