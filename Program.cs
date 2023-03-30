@@ -15,7 +15,7 @@ class Program
     static void Main(string[] args)
     {
         string[] daysOfWeek = { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" }; //значения дней недели
-        int currentDayIndex = -1; //текущий индекс дня (если = 0, то начнётся со вторника)
+        int currentDayIndex = -1;
 
         GetNextDayOfWeek getNextDay = () =>
         {
